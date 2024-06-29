@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: cursive;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(97, 97, 224);
+}
+.box {
+  height: fit-content;
+  width: fit-content;
+  background-color: white;
+  border-radius: 60px 10px 60px 10px;
+  box-shadow: 5px 5px 10px white, -2px -2px 5px white;
+  padding: 40px;
+}
+h2 {
+  text-align: center;
+  font-size: 25px;
+  color: hotpink;
+}
+h1 {
+  text-align: center;
+}
+button {
+  padding: 9px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
